@@ -1,0 +1,37 @@
+{
+  "name": "artgrant",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test:scene": "node scripts/verify-scene.mjs",
+    "test:audio": "node scripts/verify-audio-assets.mjs",
+    "inspect:scene": "node scripts/inspect-scene.mjs",
+    "inspect:scene2": "node scripts/inspect-scene02.mjs",
+    "inspect:scene3": "node scripts/inspect-scene03.mjs",
+    "test:scene3": "node scripts/verify-scene03.mjs",
+    "test:handoff": "node scripts/verify-room-handoff.mjs",
+    "test:scene4": "node scripts/verify-scene04.mjs",
+    "inspect:scene4": "node scripts/inspect-scene04.mjs",
+    "test:scene5": "node scripts/verify-scene05.mjs",
+    "inspect:scene5": "node scripts/inspect-scene05.mjs",
+    "test:scene6": "node scripts/verify-scene06.mjs",
+    "inspect:scene6": "node scripts/inspect-scene06.mjs",
+    "test:navigation": "node scripts/verify-navigation.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/three": "^0.186.0",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.4"
+  },
+  "dependencies": {
+    "@fontsource/caveat": "^5.3.0",
+    "@fontsource/manrope": "^5.3.0",
+    "gsap": "^3.15.0",
+    "three": "^0.186.1"
+  }
+}
